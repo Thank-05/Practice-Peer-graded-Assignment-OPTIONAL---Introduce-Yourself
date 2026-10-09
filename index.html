@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Tiến Thành - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">NTT<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#education">Học vấn</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas me-moon" id="theme-icon"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="greeting">Xin chào, tôi là</p>
+            <h1>Nguyễn Tiến Thành</h1>
+            <h3>Sinh viên năm 3 - <span class="highlight">Đại học Phenikaa</span></h3>
+            <p class="bio">Đam mê phát triển Web & Ứng dụng công nghệ, luôn tìm tòi học hỏi và sáng tạo những sản phẩm giá trị.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary-btn">Liên hệ tôi</a>
+                <a href="#projects" class="btn secondary-btn">Xem dự án</a>
+            </div>
+        </div>
+        <div class="hero-avatar">
+            <div class="avatar-box">
+                <i class="fas fa-user-graduate placeholder-avatar"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title">Giới Thiệu Bản Thân</h2>
+        <div class="about-container">
+            <div class="about-card">
+                <i class="fas fa-code card-icon"></i>
+                <h3>Định hướng phát triển</h3>
+                <p>Tôi hướng tới trở thành một Chuyên gia Phát triển Web App (Full-stack Developer) có tư duy tối ưu sản phẩm tốt và khả năng giải quyết vấn đề linh hoạt.</p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-lightbulb card-icon"></i>
+                <h3>Tinh thần học tập</h3>
+                <p>Năng động, chủ động tiếp thu các công nghệ mới và sẵn sàng thử thách bản thân qua các dự án thực tế và bài tập lớn.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <h2 class="section-title">Học Vấn</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2022 - Hiện tại</span>
+                    <h3>Đại học Phenikaa</h3>
+                    <p class="degree">Chuyên ngành: Công nghệ Thông tin / Khoa học Máy tính</p>
+                    <p>Hiện là <strong>Sinh viên năm 3</strong>. Tích cực tham gia các dự án môn học, học thuật và phát triển kỹ năng lập trình web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2 class="section-title">Kỹ Năng</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                    <li><i class="fab fa-js"></i> JavaScript (ES6+)</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap / Tailwind</li>
+                    <li><i class="fab fa-react"></i> React.js Basic</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Backend & Tools</h3>
+                <ul class="skill-list">
+                    <li><i class="fab fa-node-js"></i> Node.js / Express</li>
+                    <li><i class="fas fa-database"></i> SQL / MongoDB</li>
+                    <li><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                    <li><i class="fas fa-tools"></i> VS Code & DevTools</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Dự Án Nổi Bật</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="project-body">
+                    <h3>Personal Portfolio Web</h3>
+                    <p>Trang web cá nhân giới thiệu thông tin, kỹ năng và học vấn được tối ưu giao diện responsive cho cả di động và máy tính.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-body">
+                    <h3>Task Management Web App</h3>
+                    <p>Ứng dụng quản lý công việc cá nhân hỗ trợ thêm, sửa, xóa và theo dõi trạng thái nhiệm vụ hàng ngày.</p>
+                    <div class="tags">
+                        <span>JS</span>
+                        <span>LocalStorage</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Liên Hệ</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-user"></i>
+                    <div>
+                        <h4>Họ và Tên</h4>
+                        <p>Nguyễn Tiến Thành</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-university"></i>
+                    <div>
+                        <h4>Trường</h4>
+                        <p>Đại học Phenikaa (Sinh viên năm 3)</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>thanh.nguyentien@phenikaa-uni.edu.vn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nguyễn Tiến Thành. Phenikaa University Student Portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
